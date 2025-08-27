@@ -1,0 +1,56 @@
+# Node modules
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+build/
+.cache/
+.next/
+out/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+
+# Coverage / Testing
+coverage/
+*.lcov
+
+# Temporary files
+.tmp/
+temp/
+*.tmp
+
+# Package locks (optional, if you don’t want to commit them)
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Backend specific
+uploads/
+*.sqlite
+*.db
+
+# Frontend specific
+.sass-cache/
+.parcel-cache/
